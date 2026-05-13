@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif; /* Yazı tipi ailesi */
+    font-size: 22px; /* <p></p> etiketindeki ana yazının boyutu */
+    background-color: #a8eeff; /* Web sayfasının arka plan rengi */
+    color: #115014; /* Metin rengi */
+}
+
+@keyframes color-change2 {
+  0%   { color: rgb(0, 0, 0); }
+  50%  { color: rgb(127, 158, 235); }
+  100% { color: rgb(135, 237, 135); }
+}
+h1 {
+  animation: color-change2 9s infinite;
+}
+
+@keyframes color-change3 {
+  0%   { color: rgb(247, 155, 198); }
+  25%   { color: rgb(52, 171, 127); }
+  50%  { color: rgb(112, 121, 49); }
+  75%   { color: rgb(0, 0, 0); }
+  100% { color: blue; }
+}
+li {
+  animation: color-change3 12s infinite;
+}
+
+
+
+
+h1 {
+    color: #8a0b0b; /* Başlık rengi */
+    font-size: 48px; /* Başlık yazı tipi boyutu */
+    font-family: Georgia, sans-serif; /* Başlıkta kullanılan yazı tipi ailesi */
+}
+
+
+@keyframes color-change {
+  0%   { color: rgb(247, 155, 198); }
+  50%  { color: rgb(112, 121, 49); }
+  100% { color: blue; }
+}
+h2 {
+  animation: color-change 6s infinite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
